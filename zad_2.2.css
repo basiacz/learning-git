@@ -1,0 +1,42 @@
+body {
+	font-family: 'Quicksand'; 
+	margin: 0; 
+	background: rgb(173,216,230);
+}
+ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+nav {
+	background: #4577ED;
+	text-align: center;
+}
+nav ul li {
+	display: inline-block;
+}
+a {
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	padding: 0 20px;
+	color: rgb(255,255,255);
+	text-decoration: none;
+	width: 100%;
+	box-sizing: border-box;
+	min-width: 150px;
+}
+a:hover {
+    background-color: rgb(50,85,167);
+}
+nav ul li ul {
+	display:none;
+}
+nav ul li:hover ul {
+	display: block;
+	position: absolute;
+	background-color: rgb(69,119,237);
+}
+nav li li {
+	display: block;
+}
